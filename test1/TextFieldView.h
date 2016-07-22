@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface TextFieldView : UIView
+@property UITextField *textField;
+@property UIButton *postTextButton;
+
+
 
 @end

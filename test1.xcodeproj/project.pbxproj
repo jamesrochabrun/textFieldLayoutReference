@@ -13,6 +13,8 @@
 		7B61A9391D3FFA53005CB257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B61A9371D3FFA53005CB257 /* Main.storyboard */; };
 		7B61A93B1D3FFA53005CB257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B61A93A1D3FFA53005CB257 /* Assets.xcassets */; };
 		7B61A93E1D3FFA53005CB257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B61A93C1D3FFA53005CB257 /* LaunchScreen.storyboard */; };
+		7B7114C11D41CCC5003EA054 /* TextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7114C01D41CCC5003EA054 /* TextFieldView.m */; };
+		7B7114C71D41FA29003EA054 /* CommentPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7114C61D41FA29003EA054 /* CommentPhotoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		7B61A93A1D3FFA53005CB257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B61A93D1D3FFA53005CB257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B61A93F1D3FFA53005CB257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7114BF1D41CCC5003EA054 /* TextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldView.h; sourceTree = "<group>"; };
+		7B7114C01D41CCC5003EA054 /* TextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldView.m; sourceTree = "<group>"; };
+		7B7114C51D41FA29003EA054 /* CommentPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentPhotoView.h; sourceTree = "<group>"; };
+		7B7114C61D41FA29003EA054 /* CommentPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentPhotoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				7B61A9321D3FFA53005CB257 /* AppDelegate.m */,
 				7B61A9341D3FFA53005CB257 /* ViewController.h */,
 				7B61A9351D3FFA53005CB257 /* ViewController.m */,
+				7B7114C51D41FA29003EA054 /* CommentPhotoView.h */,
+				7B7114C61D41FA29003EA054 /* CommentPhotoView.m */,
+				7B7114BF1D41CCC5003EA054 /* TextFieldView.h */,
+				7B7114C01D41CCC5003EA054 /* TextFieldView.m */,
 				7B61A9371D3FFA53005CB257 /* Main.storyboard */,
 				7B61A93A1D3FFA53005CB257 /* Assets.xcassets */,
 				7B61A93C1D3FFA53005CB257 /* LaunchScreen.storyboard */,
@@ -150,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B61A9361D3FFA53005CB257 /* ViewController.m in Sources */,
+				7B7114C71D41FA29003EA054 /* CommentPhotoView.m in Sources */,
 				7B61A9331D3FFA53005CB257 /* AppDelegate.m in Sources */,
+				7B7114C11D41CCC5003EA054 /* TextFieldView.m in Sources */,
 				7B61A9301D3FFA53005CB257 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +314,7 @@
 				7B61A9441D3FFA53005CB257 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

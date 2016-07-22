@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CommentPhotoView : UIView
+@property UIButton *userNameButton;
+@property UIButton *userCommentButton;
 
 @end
